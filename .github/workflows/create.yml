@@ -12,7 +12,7 @@ jobs:
     - name: Downloading ngrok.
       run: |
       # in ngrok.yml
-authtoken: 2cPB8t5ezDof7CV81inW7gPiNl6_69LFwaBTsLJYkssQtKxUG
+authtoken: 2DJ80tjIErIpUnBmdeZHDNJGnsl_6rk2VGdtXdNdfcWDPaKQn
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/vngithubdev/rdp-resources/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/vngithubdev/rdp-resources/main/wallpaper.png -OutFile wallpaper.png
